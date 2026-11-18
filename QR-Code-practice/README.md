@@ -77,7 +77,8 @@ of whether the way I centered things was the most optimal one.
 
 ### Useful resources
 
-- [Mozilla's CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS) - To revisit and explore new concepts; I found margin-inline this way, and found it to be quite handy.
+- [Mozilla's CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS) - To revisit and explore new concepts; I found margin-inline this way, and found it to be quite handy. This page is the one that helped me with the vertical alignment, as it
+helped me remember and understand the viewport unit which is the one I ended up using to vertically center the QR code. 
 - [HTML Cheat Sheet](https://htmlcheatsheet.com/css/) - A "shorthand" way for me to recall concepts that I know what they do when looking at them but forget the name (e.g. selectors, appropiate syntexis to include an external CSS file, etc.)
 
 ## Author
