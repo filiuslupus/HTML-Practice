@@ -33,7 +33,7 @@ with over half of that time tying myself into knots trying to figure out how to 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [QR code Github page](https://filiuslupus.github.io/HTML-Practice/QR-Code-practice/index.html)
 
 ## My process
 
