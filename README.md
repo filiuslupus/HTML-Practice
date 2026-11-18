@@ -1,2 +1,2 @@
 # HTML-Practice
-Github Repository for HTML practice, tests and general tinkering work CSS and HTML related
+Github Repository for HTML and CSS practice, and tests.
