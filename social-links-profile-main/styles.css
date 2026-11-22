@@ -115,3 +115,7 @@ p {
 .attribution {
     font-size: 0.6875rem;;
 }
+
+.attribution a:hover {
+    color: cyan;
+}
