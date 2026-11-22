@@ -103,8 +103,9 @@ p.location {
     --spin-strength: 0;
 }
 
-Just to emphasize it, the stop animation is 12 lines total; the spin animation is three. It was almost not worth, but oh well. You learn
-something new that way.
+Just to emphasize it, the stop animation is 12 lines total; the spin animation is three. It was almost not worth, but oh well. You
+learn something new every day. I'm also not entirely convinced that it is an optimal solution, but it is a solution. Any comments
+are welcome. 
 
 ### Built with
 
