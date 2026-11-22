@@ -116,6 +116,6 @@ p {
     font-size: 0.6875rem;;
 }
 
-.attribution a:hover {
+.attribution a:hover, .attribution a:focus-visible {
     color: cyan;
 }
