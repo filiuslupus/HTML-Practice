@@ -61,17 +61,23 @@ h1 {
     margin-bottom: 0;
 }
 
-@media (prefers-reduced-motion: reduce) {
-    p.location {
-        color: #C4F82A;
-        font-size: .8rem;
-        transition: --spin-strength .4s ease-out;
-        rotate: x calc(var(--spin-angle) * var(--spin-strength));
-        font-weight: 600;
-        animation: spin 5s infinite;
-    }
+
+p.location {
+    color: #C4F82A;
+    font-size: .8rem;
+    transition: --spin-strength .4s ease-out;
+    rotate: x calc(var(--spin-angle) * var(--spin-strength));
+    font-weight: 600;
+    animation: spin 5s infinite;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    p.location {
+        animation: none;
+        transition: none;
+        rotate: none;
+    }
+}
 .location:hover {
     animation-play-state: paused;
     --spin-strength: 0;
@@ -108,7 +114,4 @@ p {
 
 .attribution {
     font-size: 0.6875rem;;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
