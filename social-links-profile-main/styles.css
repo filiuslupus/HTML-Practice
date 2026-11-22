@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf")
+        format("truetype");
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400 900;
+}
+
+@keyframes spin {
+  50% {--spin-angle: 180deg;}
+}
+
+@property --spin-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+    }
+@property --spin-strength {
+        syntax: "<number>";
+        inherits: false;
+        initial-value: 1;
+    }
+
+body {
+    background-color: #141414;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+main {
+    background-color: #1F1F1F;
+    display: block;
+    border-radius: 12px;
+    width: 385px;
+    max-height: 100%;
+    margin-inline: auto;
+    margin-top: 18vh;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+img {
+    border: 1.5px solid #C4F82A;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.profile-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+p.location {
+    color: #C4F82A;
+    font-size: .8rem;
+    transition: --spin-strength .4s ease-out;
+    rotate: x calc(var(--spin-angle) * var(--spin-strength));
+    font-weight: 600;
+    animation: spin 5s infinite;
+}
+
+.location:hover {
+    animation-play-state: paused;
+    --spin-strength: 0;
+}
+
+p {
+    font-size: .8rem;
+    letter-spacing: .5px;
+    margin-bottom: 28px;
+}
+
+.socials-link {
+    text-decoration-line: none;
+    color: inherit;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    font-size: .9rem;
+    padding: 10px;
+    margin: 10px 40px 17px 40px;
+    background: #333333;
+    border-radius: 6px;
+    background: linear-gradient(to left, #333333 50%, #C4F82A 50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
+
+.socials-link:hover, .socials-link:focus-visible {
+    background-position: left;
+    color: #141414;
+}
+
+.attribution {
+    font-size: 0.6875rem;;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
