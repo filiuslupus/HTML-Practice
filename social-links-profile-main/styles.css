@@ -32,7 +32,7 @@ main {
     background-color: #1F1F1F;
     display: block;
     border-radius: 12px;
-    width: 385px;
+    width: min(100% - 2rem, 385px);
     max-height: 100%;
     margin-inline: auto;
     margin-top: 18vh;
@@ -61,13 +61,15 @@ h1 {
     margin-bottom: 0;
 }
 
-p.location {
-    color: #C4F82A;
-    font-size: .8rem;
-    transition: --spin-strength .4s ease-out;
-    rotate: x calc(var(--spin-angle) * var(--spin-strength));
-    font-weight: 600;
-    animation: spin 5s infinite;
+@media (prefers-reduced-motion: reduce) {
+    p.location {
+        color: #C4F82A;
+        font-size: .8rem;
+        transition: --spin-strength .4s ease-out;
+        rotate: x calc(var(--spin-angle) * var(--spin-strength));
+        font-weight: 600;
+        animation: spin 5s infinite;
+    }
 }
 
 .location:hover {
@@ -88,7 +90,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1.5rem;
+    min-height: 1.5rem;
     font-size: .9rem;
     padding: 10px;
     margin: 10px 40px 17px 40px;

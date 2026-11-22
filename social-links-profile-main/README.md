@@ -112,6 +112,9 @@ are welcome.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+
+## Tools Used
+
 - Visual Studio Code
 - htmlcheatsheet.com/css/
 - OpenAI's Codex, model 6.1-Sol.
