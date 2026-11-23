@@ -40,7 +40,7 @@ with trying to find a way to apply certain styles to the subheaders without affe
 which led me to discover the "not" pseudoclass. Pretty handy to be honest.
 
 I think this is the challenge in which I've had to go back and edit the HTML the most time so far. As I added a few
-<hr> tags for the section separator lines, and since this was my frist time structuring a table, I had to try a few
+"hr" tags for the section separator lines, and since this was my frist time structuring a table, I had to try a few
 times until I got it right. When it came to styling the spacing, and adding the in-between lines however, I did decide
 to brainstorm a little using Codex, since everything I had tried with spacing did not work. Specifically, I was
 struggling with "What selector do I use to accomplish the look I want?", which was quickly solved after a quick back
@@ -80,7 +80,7 @@ with my own at one point, but I think that would've been too much. Another time 
 ### What I learned
 
 Pretty stoked about the not pseudoclass, and managing to not completely break the CSS of the first table I worked with.
-Oh, and the <hr> tag is also kinda neat for styling.
+Oh, and the "hr" tag is also kinda neat for styling.
 
 ### Continued development
 
