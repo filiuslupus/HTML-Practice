@@ -68,6 +68,8 @@ with my own at one point, but I think that would've been too much. Another time 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- @media responsive rules
+- Table styling elements
 
 ### Tools Used
 

@@ -18,7 +18,7 @@
 
 body {
     background-color: #F3E5D7;
-    font-family: "Outfit";
+    font-family: "Outfit", sans-serif;
     color: #5F564D;
 }
 
@@ -29,7 +29,8 @@ main {
     border-radius: 24px;
     padding-left: 40px;
     padding-right: 8px;
-    width: min(100% - 2rem, 650px);
+    width: min(100% - 2rem, 730px);
+    box-sizing: border-box;
     padding-top: 40px;
     margin-top: 12.8vh;
     margin-bottom: 13vh;
@@ -53,14 +54,14 @@ img {
 }
 
 h1 {
-    font-family: "YoungSerif";
+    font-family: "YoungSerif", serif;
     color: #312E2C;
     font-size: 2.5rem;
     margin-bottom: 0;
 }
 
 h2 {
-    font-family: "YoungSerif";
+    font-family: "YoungSerif", serif;
     color: #854632;
     font-size: 1.78rem;
 }
@@ -78,7 +79,7 @@ h2:not(.prep-time) {
 }
 
 .prep-time {
-    font-family: "Outfit";
+    font-family: "Outfit", sans-serif;
     color: #7A284E;
     font-size: 1.24rem;
     padding-left: 15px;
@@ -148,12 +149,17 @@ table td {
     vertical-align: top;
 }
 
-table td:first-child {
+table th:first-child {
     padding-left: 32px;
 }
 
-table tr:not(:last-child) > td {
+table tr:not(:last-child) {
     border-bottom: 1px solid #E3DDD7;
+}
+
+th {
+    text-align: left;
+    font-weight: 400;;
 }
 
 .attribution {
